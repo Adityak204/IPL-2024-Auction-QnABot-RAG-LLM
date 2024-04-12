@@ -18,4 +18,4 @@ streamlit run app.py
 
 ```
 
-![screenshot](./docs/ipl2024_rag_screenshot.png)
+![screenshot](./docs/ipl2024auction_rag.png)

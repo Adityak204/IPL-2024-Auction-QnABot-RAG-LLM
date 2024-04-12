@@ -18,7 +18,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 
 
-class LocalRAGLlm:
+class LocalRAGllm:
     def __init__(
         self,
         embedding_model_name,

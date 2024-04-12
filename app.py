@@ -1,6 +1,7 @@
 from PIL import Image
 import streamlit as st
 import numpy as np
+import pickle
 
 st.title("IPL 2024 Auction - Q&A")
 
@@ -11,6 +12,11 @@ if "messages" not in st.session_state:
 _img = "./data/ipl_2024.webp"
 image = Image.open(_img)
 st.image(image, use_column_width="auto")
+
+# Load the pickled news article list
+with open("./data/ipl_2024_auction_news_article.pkl", "rb") as input_file:
+    # Unpickle the data object
+    loaded_data = pickle.load(input_file)
 
 # User input section
 user_input = st.text_input(

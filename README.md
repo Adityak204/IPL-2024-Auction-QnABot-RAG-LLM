@@ -1,7 +1,7 @@
 # IPL-2024-Auction-Q&ABot-RAG-LLM
 This repository contains code for creating Q&Abot using RAG &amp; LLM which can answer questions regarding IPL 2024 Auctions.
 
-![rag-video](./docs/iplrag.gif)
+![rag-video](./docs/streamlit-extended.gif)
 
 ### LLM Used
 In this app we have used an LLM which can be run locally. For this we have made use of `Flan T-5 small` model.
@@ -22,5 +22,3 @@ pip install -r requirement_local.txt
 streamlit run app.py
 
 ```
-
-![screenshot](./docs/ipl2024auction_rag.png)

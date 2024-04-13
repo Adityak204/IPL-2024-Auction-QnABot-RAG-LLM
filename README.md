@@ -24,4 +24,4 @@ streamlit run app.py
 ```
 
 ### System Configuration
-This RAG based bot is running on `Macbook Air (16GB RAM)`
+This RAG based bot is running on `MacBook Air (16GB RAM)`

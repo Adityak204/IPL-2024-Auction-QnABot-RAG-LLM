@@ -4,7 +4,7 @@ This repository contains code for creating Q&Abot using RAG &amp; LLM which can 
 ![rag-video](./docs/streamlit-extended.gif)
 
 ### LLM Used
-In this app we have used an LLM which can be run locally. For this we have made use of `Flan T-5 small` model.
+In this app we have used an LLM which can be run locally. For this we have made use of `google/flan-t5-small` model.
 
 ### Embeddings Used
 For creating document and question embeddings we have used `bge-base-en-v1.5` embedding model which can be run locally.
@@ -22,3 +22,6 @@ pip install -r requirement_local.txt
 streamlit run app.py
 
 ```
+
+### System Configuration
+This RAG based bot is running on Macbook Air (16GB RAM)
